@@ -1,0 +1,555 @@
+.tela-sobre-oevem,
+.tela-sobre-oevem * {
+  box-sizing: border-box;
+}
+.tela-sobre-oevem {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-10 {
+  background: #5f29dd;
+  width: 1440px;
+  height: 51px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-11 {
+  background: #ffffff;
+  width: 1440px;
+  height: 46px;
+  position: absolute;
+  left: 0px;
+  top: 28px;
+}
+.today {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 2px;
+  top: 3px;
+  overflow: visible;
+}
+._22-abril-2025 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 5px;
+  width: 93px;
+  height: 19px;
+}
+._14-23 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 134px;
+  top: 5px;
+  width: 93px;
+  height: 19px;
+}
+.schedule {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 110px;
+  top: 5px;
+  overflow: visible;
+}
+.issn-2966-425-x {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1314px;
+  top: 6px;
+  width: 146px;
+  height: 28px;
+}
+.image-1 {
+  width: 168px;
+  height: 35px;
+  position: absolute;
+  left: 151px;
+  top: 33px;
+  object-fit: cover;
+  aspect-ratio: 168/35;
+}
+.image {
+  background: radial-gradient(
+    closest-side,
+    rgba(95, 41, 221, 1) 0%,
+    rgba(51, 22, 119, 1) 100%
+  );
+  width: 1444px;
+  height: 370px;
+  position: absolute;
+  left: -4px;
+  top: 74px;
+}
+.p-gina-inicial {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 402px;
+  top: 37px;
+  width: 93px;
+  height: 19px;
+}
+.sobre {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 524px;
+  top: 40px;
+  width: 47px;
+  height: 21px;
+}
+.programa-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 600px;
+  top: 40px;
+  width: 97px;
+  height: 21px;
+}
+.submiss-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 720px;
+  top: 41px;
+  width: 79px;
+  height: 19px;
+}
+.publica-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 826px;
+  top: 42px;
+  width: 79px;
+  height: 19px;
+}
+.edi-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 932px;
+  top: 42px;
+  width: 79px;
+  height: 19px;
+}
+.rectangle-14 {
+  border-radius: 0px;
+  width: 103px;
+  height: 28px;
+  position: absolute;
+  left: 1277px;
+  top: 37px;
+  overflow: visible;
+}
+.rectangle-13 {
+  border-radius: 0px;
+  width: 101px;
+  height: 28px;
+  position: absolute;
+  left: 1232px;
+  top: -44px;
+  overflow: visible;
+}
+.cadastra-se {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1287px;
+  top: 41px;
+  width: 90px;
+  height: 19px;
+}
+.rectangle-2 {
+  background: rgba(0, 60, 255, 0.75);
+  border-radius: 49px;
+  width: 77px;
+  height: 28px;
+  position: absolute;
+  left: 1170px;
+  top: 37px;
+}
+.entrar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1188px;
+  top: 42px;
+  width: 53px;
+  height: 19px;
+}
+.rectangle-25 {
+  background: rgba(34, 121, 234, 0.52);
+  width: 130px;
+  height: 20px;
+  position: absolute;
+  left: 98px;
+  top: 472px;
+}
+.rectangle-26 {
+  background: rgba(95, 41, 221, 0.33);
+  width: 130px;
+  height: 20px;
+  position: absolute;
+  left: 655px;
+  top: 816px;
+}
+.nossa-historia {
+  color: #003cff;
+  text-align: left;
+  font-family: "Baloo2-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 114px;
+  top: 469px;
+  width: 98px;
+  height: 26px;
+}
+.nossa-miss-o {
+  color: #5f29dd;
+  text-align: left;
+  font-family: "Baloo2-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 671px;
+  top: 813px;
+  width: 98px;
+  height: 26px;
+}
+.uma-d-cada-de-inova-o-e-conhecimento {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 98px;
+  top: 492px;
+  width: 381px;
+  height: 28px;
+}
+.o-congresso-de-ci-ncia-e-inova-o-em-interfaces-e-intelig-ncia-artificial-concifa-teve-sua-primeira-edi-o-em-2017-com-o-objetivo-de-criar-um-espa-o-para-discuss-o-e-compartilhamento-de-conhecimentos-sobre-as-interfaces-entre-tecnologia-inova-o-e-comportamento-humano-ao-longo-dos-anos-o-concifa-se-consolidou-como-um-dos-principais-eventos-acad-micos-na-rea-de-intelig-ncia-artificial-e-suas-interfaces-no-brasil-reunindo-pesquisadores-profissionais-e-estudantes-de-diversas-institui-es-nacionais-e-internacionais-em-sua-nona-edi-o-o-concifa-traz-o-tema-as-interfaces-das-intelig-ncias-tecnologias-inova-es-e-habilidades-comportamentais-buscando-explorar-as-m-ltiplas-dimens-es-da-intera-o-entre-humanos-e-sistemas-inteligentes-bem-como-os-impactos-dessas-tecnologias-na-sociedade-contempor-nea {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 98px;
+  top: 520px;
+  width: 415px;
+  height: 265px;
+}
+.rectangle-27 {
+  background: #ffffff;
+  width: 371px;
+  height: 153px;
+  position: absolute;
+  left: 98px;
+  top: 863px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-29 {
+  background: #ffffff;
+  width: 371px;
+  height: 153px;
+  position: absolute;
+  left: 962px;
+  top: 863px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-28 {
+  background: #ffffff;
+  width: 371px;
+  height: 153px;
+  position: absolute;
+  left: 534px;
+  top: 863px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ellipse-1 {
+  background: rgba(34, 121, 234, 0.52);
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: 277px;
+  top: 869px;
+}
+.ellipse-2 {
+  background: rgba(255, 0, 0, 0.19);
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: 706px;
+  top: 869px;
+}
+.ellipse-3 {
+  background: rgba(21, 148, 25, 0.35);
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: 1121px;
+  top: 869px;
+}
+.stars {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 279px;
+  top: 871px;
+  overflow: visible;
+}
+.mood {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 708px;
+  top: 870px;
+  overflow: visible;
+}
+.check {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1122px;
+  top: 871px;
+  overflow: visible;
+}
+.miss-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: 267px;
+  top: 895px;
+  width: 59px;
+  height: 26px;
+}
+.vis-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: 700px;
+  top: 894px;
+  width: 59px;
+  height: 26px;
+}
+.valores {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: 1112px;
+  top: 894px;
+  width: 59px;
+  height: 26px;
+}
+.promover-o-avan-o-cient-fico-e-tecnol-gico-nas-reas-de-intelig-ncia-artificial-e-interfaces-homem-m-quina-fomentando-o-di-logo-interdisciplinar-e-a-dissemina-o-de-conhecimentos-que-contribuam-para-o-desenvolvimento-de-solu-es-inovadoras-e-ticas {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Medium", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  position: absolute;
+  left: 127px;
+  top: 924px;
+  width: 328px;
+  height: 64px;
+}
+.ser-reconhecido-como-o-principal-evento-acad-mico-brasileiro-na-rea-de-intelig-ncia-artificial-e-suas-interfaces-contribuindo-para-a-forma-o-de-profissionais-e-pesquisadores-capacitados-para-enfrentar-os-desafios-tecnol-gicos-e-sociais-do-s-culo-xxi {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Medium", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  position: absolute;
+  left: 550px;
+  top: 920px;
+  width: 328px;
+  height: 64px;
+}
+.excel-ncia-acad-mica-e-cient-fica-inova-o-e-criatividade-tica-e-responsabilidade-social-interdisciplinaridade-inclus-o-e-diversidade {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Medium", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  position: absolute;
+  left: 982px;
+  top: 918px;
+  width: 328px;
+  height: 64px;
+}
+.rectangle-30 {
+  background: #5f29dd;
+  width: 475px;
+  height: 287px;
+  position: absolute;
+  left: 660px;
+  top: 493px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.fa-a-parte-do-ix-concifa {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Baloo2-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 769px;
+  top: 512px;
+  width: 279px;
+  height: 28px;
+}
+.junte-se-a-n-s-para-discutir-e-moldar-o-futuro-das-interfaces-entre-intelig-ncia-artificial-e-comportamento-humano {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Baloo2-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 696px;
+  top: 565px;
+  width: 406px;
+  height: 55px;
+}
+.rectangle-46 {
+  background: #ffffff;
+  width: 121px;
+  height: 36px;
+  position: absolute;
+  left: 720px;
+  top: 697px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-47 {
+  background: #ffffff;
+  width: 130px;
+  height: 36px;
+  position: absolute;
+  left: 914px;
+  top: 697px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.inscreva-se {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: 734px;
+  top: 706px;
+  width: 94px;
+  height: 33px;
+}
+.entre-em-contato {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: 918px;
+  top: 706px;
+  width: 126px;
+  height: 33px;
+}
+.sobre-o-ix-concifa {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: absolute;
+  left: 465px;
+  top: 197px;
+  width: 632px;
+  height: 76px;
+}
+.rectangle-48 {
+  background: rgba(217, 217, 217, 0.2);
+  width: 168px;
+  height: 22px;
+  position: absolute;
+  left: 676px;
+  top: 175px;
+}
+.sobre-o-evento {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 716px;
+  top: 177px;
+  width: 110px;
+  height: 20px;
+}
+.conhe-a-mais-sobre-o-congresso-de-ci-ncia-e-inova-o-em-interfaces-e-intelig-ncia-artificial {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 496px;
+  top: 273px;
+  width: 498px;
+  height: 20px;
+}
