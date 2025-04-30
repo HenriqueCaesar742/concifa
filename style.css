@@ -1,0 +1,837 @@
+.desktop-8,
+.desktop-8 * {
+  box-sizing: border-box;
+}
+.desktop-8 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-10 {
+  background: #5f29dd;
+  width: 1440px;
+  height: 51px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-11 {
+  background: #ffffff;
+  width: 1440px;
+  height: 46px;
+  position: absolute;
+  left: 0px;
+  top: 28px;
+}
+.today {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 2px;
+  top: 3px;
+  overflow: visible;
+}
+._22-abril-2025 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 5px;
+  width: 93px;
+  height: 19px;
+}
+._14-23 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 134px;
+  top: 5px;
+  width: 93px;
+  height: 19px;
+}
+.schedule {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 110px;
+  top: 5px;
+  overflow: visible;
+}
+.issn-2966-425-x {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1314px;
+  top: 6px;
+  width: 146px;
+  height: 28px;
+}
+.image-1 {
+  width: 168px;
+  height: 35px;
+  position: absolute;
+  left: 151px;
+  top: 33px;
+  object-fit: cover;
+  aspect-ratio: 168/35;
+}
+.image {
+  background: radial-gradient(
+    closest-side,
+    rgba(95, 41, 221, 1) 0%,
+    rgba(51, 22, 119, 1) 100%
+  );
+  width: 1444px;
+  height: 370px;
+  position: absolute;
+  left: -4px;
+  top: 74px;
+}
+.conhe-a-a-hist-ria-do-concifa-atrav-s-de-suas-edi-es-anteriores-temas-destaques-e-impactos {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 448px;
+  top: 273px;
+}
+.edi-es-anteriores {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: absolute;
+  left: 302px;
+  top: 197px;
+  width: 837px;
+  height: 76px;
+}
+.p-gina-inicial {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 402px;
+  top: 37px;
+  width: 93px;
+  height: 19px;
+}
+.sobre {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 524px;
+  top: 40px;
+  width: 47px;
+  height: 21px;
+}
+.programa-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 600px;
+  top: 40px;
+  width: 97px;
+  height: 21px;
+}
+.submiss-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 720px;
+  top: 41px;
+  width: 79px;
+  height: 19px;
+}
+.publica-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 826px;
+  top: 42px;
+  width: 79px;
+  height: 19px;
+}
+.edi-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 932px;
+  top: 42px;
+  width: 79px;
+  height: 19px;
+}
+.rectangle-14 {
+  border-radius: 0px;
+  width: 103px;
+  height: 28px;
+  position: absolute;
+  left: 1277px;
+  top: 37px;
+  overflow: visible;
+}
+.rectangle-13 {
+  border-radius: 0px;
+  width: 101px;
+  height: 28px;
+  position: absolute;
+  left: 1232px;
+  top: -44px;
+  overflow: visible;
+}
+.cadastra-se {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1287px;
+  top: 41px;
+  width: 90px;
+  height: 19px;
+}
+.rectangle-2 {
+  background: rgba(0, 60, 255, 0.75);
+  border-radius: 49px;
+  width: 77px;
+  height: 28px;
+  position: absolute;
+  left: 1170px;
+  top: 37px;
+}
+.entrar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1188px;
+  top: 42px;
+  width: 53px;
+  height: 19px;
+}
+.rectangle-48 {
+  background: rgba(217, 217, 217, 0.2);
+  width: 168px;
+  height: 22px;
+  position: absolute;
+  left: 636px;
+  top: 175px;
+}
+.rectangle-49 {
+  background: rgba(0, 60, 255, 0.31);
+  width: 168px;
+  height: 22px;
+  position: absolute;
+  left: 636px;
+  top: 467px;
+}
+.edi-es {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 697px;
+  top: 178px;
+}
+.hist-ria {
+  color: rgba(0, 60, 255, 0.75);
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 695px;
+  top: 470px;
+}
+.linha-do-tempo {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 658px;
+  top: 512px;
+}
+.line-16 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #5f29dd;
+  border-width: 3px 0 0 0;
+  width: 106px;
+  height: 0px;
+  position: absolute;
+  left: 667px;
+  top: 534px;
+}
+.acompanhe-a-evolu-o-do-concifa-ao-longo-dos-anos {
+  color: rgba(0, 0, 0, 0.48);
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 585px;
+  top: 537px;
+}
+.line-17 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.48);
+  border-width: 1px 0 0 0;
+  width: 462px;
+  height: 0px;
+  position: absolute;
+  left: 720px;
+  top: 552px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.line-18 {
+  margin-top: -5px;
+  border-style: solid;
+  border-color: #003cff;
+  border-width: 5px 0 0 0;
+  width: 17px;
+  height: 0px;
+  position: absolute;
+  left: 718px;
+  top: 579px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+._8 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 717px;
+  top: 582px;
+  -webkit-text-stroke: 0.10000000149011612px #000000;
+}
+.rectangle-72 {
+  background: #ffffff;
+  border-radius: 36px;
+  width: 271px;
+  height: 133px;
+  position: absolute;
+  left: 756px;
+  top: 556px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-73 {
+  background: #ffffff;
+  border-radius: 36px;
+  width: 271px;
+  height: 133px;
+  position: absolute;
+  left: 409px;
+  top: 716px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.explorou-as-fronteiras-da-ia-em-reas-como-criatividade-arte-e-emo-o {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 423px;
+  top: 789px;
+  width: 240px;
+  height: 30px;
+}
+.rectangle-74 {
+  background: #ffffff;
+  border-radius: 36px;
+  width: 271px;
+  height: 133px;
+  position: absolute;
+  left: 756px;
+  top: 881px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.line-19 {
+  margin-top: -5px;
+  border-style: solid;
+  border-color: #003cff;
+  border-width: 5px 0 0 0;
+  width: 17px;
+  height: 0px;
+  position: absolute;
+  left: 718px;
+  top: 776px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.line-20 {
+  margin-top: -5px;
+  border-style: solid;
+  border-color: #003cff;
+  border-width: 5px 0 0 0;
+  width: 17px;
+  height: 0px;
+  position: absolute;
+  left: 718px;
+  top: 939px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+._7 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 717px;
+  top: 777px;
+  -webkit-text-stroke: 0.10000000149011612px #000000;
+}
+._6 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 717px;
+  top: 942px;
+  -webkit-text-stroke: 0.10000000149011612px #000000;
+}
+.intelig-ncia-artificial-e-sociedade-desafios-e-oportunidades {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 780px;
+  top: 588px;
+  width: 223px;
+  height: 33px;
+}
+.focou-nos-impactos-sociais-da-ia-discutindo-quest-es-ticas-regulat-rias-e-de-inclus-o {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 776px;
+  top: 636px;
+  width: 243px;
+  height: 37px;
+}
+.fronteiras-da-ia-cogni-o-emo-o-e-criatividade {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 423px;
+  top: 745px;
+}
+.ia-respons-vel-tica-transpar-ncia-e-confiabilidade {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 763px;
+  top: 905px;
+  width: 256px;
+  height: 23px;
+}
+.abordou-a-import-ncia-da-tica-transpar-ncia-e-confiabilidade-no-desenvolvimento-de-sistemas-de-ia {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 763px;
+  top: 956px;
+  width: 264px;
+}
+.today2 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 796px;
+  top: 615px;
+  overflow: visible;
+}
+.location-on {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 848px;
+  top: 616px;
+  overflow: visible;
+}
+.gmail-groups {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 912px;
+  top: 616px;
+  overflow: visible;
+}
+._2024 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 814px;
+  top: 617px;
+}
+.manaus {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 866px;
+  top: 618px;
+}
+._1100 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 935px;
+  top: 618px;
+}
+.today3 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 442px;
+  top: 768px;
+  overflow: visible;
+}
+.location-on2 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 494px;
+  top: 768px;
+  overflow: visible;
+}
+.gmail-groups2 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 558px;
+  top: 768px;
+  overflow: visible;
+}
+._2023 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 460px;
+  top: 770px;
+}
+.manaus2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 512px;
+  top: 770px;
+}
+._1050 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 576px;
+  top: 771px;
+}
+.today4 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 805px;
+  top: 934px;
+  overflow: visible;
+}
+.location-on3 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 859px;
+  top: 934px;
+  overflow: visible;
+}
+.gmail-groups3 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 924px;
+  top: 934px;
+  overflow: visible;
+}
+._2022 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 824px;
+  top: 936px;
+}
+.manaus3 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 876px;
+  top: 936px;
+}
+._1000 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 943px;
+  top: 936px;
+}
+.line-21 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: rgba(0, 60, 255, 0.75);
+  border-width: 3px 0 0 0;
+  width: 84px;
+  height: 0px;
+  position: absolute;
+  left: 758px;
+  top: 906px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.line-22 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: rgba(0, 60, 255, 0.75);
+  border-width: 3px 0 0 0;
+  width: 84px;
+  height: 0px;
+  position: absolute;
+  left: 676px;
+  top: 741px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.line-23 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: rgba(0, 60, 255, 0.75);
+  border-width: 3px 0 0 0;
+  width: 84px;
+  height: 0px;
+  position: absolute;
+  left: 756px;
+  top: 582px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.rectangle-75 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-width: 0.5px;
+  width: 60px;
+  height: 11px;
+  position: absolute;
+  left: 795px;
+  top: 670px;
+}
+.ver-detalhes {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  position: absolute;
+  left: 797px;
+  top: 671px;
+}
+.arrow-right {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 842px;
+  top: 669px;
+  overflow: visible;
+}
+.rectangle-76 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-width: 0.5px;
+  width: 60px;
+  height: 11px;
+  position: absolute;
+  left: 781px;
+  top: 991px;
+}
+.ver-detalhes2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  position: absolute;
+  left: 783px;
+  top: 992px;
+}
+.arrow-right2 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 828px;
+  top: 990px;
+  overflow: visible;
+}
+.rectangle-77 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-width: 0.5px;
+  width: 60px;
+  height: 11px;
+  position: absolute;
+  left: 442px;
+  top: 827px;
+}
+.ver-detalhes3 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  position: absolute;
+  left: 444px;
+  top: 828px;
+}
+.arrow-right3 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 489px;
+  top: 826px;
+  overflow: visible;
+}
+.rectangle-78 {
+  background: rgba(0, 60, 255, 0.4);
+  width: 42px;
+  height: 12px;
+  position: absolute;
+  left: 423px;
+  top: 733px;
+}
+._7-edi-o {
+  color: rgba(0, 60, 255, 0.75);
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  position: absolute;
+  left: 423px;
+  top: 734px;
+}
+.rectangle-79 {
+  background: rgba(0, 60, 255, 0.4);
+  width: 42px;
+  height: 12px;
+  position: absolute;
+  left: 782px;
+  top: 574px;
+}
+._8-edi-o {
+  color: rgba(0, 60, 255, 0.75);
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  position: absolute;
+  left: 782px;
+  top: 575px;
+}
+.rectangle-80 {
+  background: rgba(0, 60, 255, 0.4);
+  width: 42px;
+  height: 12px;
+  position: absolute;
+  left: 779px;
+  top: 893px;
+}
+._6-edi-o {
+  color: rgba(0, 60, 255, 0.75);
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  position: absolute;
+  left: 779px;
+  top: 894px;
+}
