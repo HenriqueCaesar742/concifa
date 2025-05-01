@@ -1,0 +1,778 @@
+.desktop-5,
+.desktop-5 * {
+  box-sizing: border-box;
+}
+.desktop-5 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-10 {
+  background: #5f29dd;
+  width: 1440px;
+  height: 51px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-11 {
+  background: #ffffff;
+  width: 1440px;
+  height: 46px;
+  position: absolute;
+  left: 0px;
+  top: 28px;
+}
+.today {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 2px;
+  top: 3px;
+  overflow: visible;
+}
+._22-abril-2025 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 5px;
+  width: 93px;
+  height: 19px;
+}
+._14-23 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 134px;
+  top: 5px;
+  width: 93px;
+  height: 19px;
+}
+.schedule {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 110px;
+  top: 5px;
+  overflow: visible;
+}
+.issn-2966-425-x {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1314px;
+  top: 6px;
+  width: 146px;
+  height: 28px;
+}
+.image-1 {
+  width: 168px;
+  height: 35px;
+  position: absolute;
+  left: 151px;
+  top: 33px;
+  object-fit: cover;
+  aspect-ratio: 168/35;
+}
+.image {
+  background: radial-gradient(
+    closest-side,
+    rgba(95, 41, 221, 1) 0%,
+    rgba(51, 22, 119, 1) 100%
+  );
+  width: 1444px;
+  height: 370px;
+  position: absolute;
+  left: 0px;
+  top: 79px;
+}
+.confira-a-programa-o-completa-do-ix-concifa-com-palestras-workshops-mesas-redondas-e-apresenta-es-de-trabalhos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 360px;
+  top: 273px;
+}
+.rectangle-48 {
+  background: rgba(217, 217, 217, 0.2);
+  width: 168px;
+  height: 22px;
+  position: absolute;
+  left: 636px;
+  top: 175px;
+}
+.programa-o {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 679px;
+  top: 178px;
+}
+.p-gina-inicial {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 402px;
+  top: 37px;
+  width: 93px;
+  height: 19px;
+}
+.sobre {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 524px;
+  top: 40px;
+  width: 47px;
+  height: 21px;
+}
+.programa-o2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 600px;
+  top: 40px;
+  width: 97px;
+  height: 21px;
+}
+.submiss-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 720px;
+  top: 41px;
+  width: 79px;
+  height: 19px;
+}
+.publica-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 826px;
+  top: 42px;
+  width: 79px;
+  height: 19px;
+}
+.edi-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 932px;
+  top: 42px;
+  width: 79px;
+  height: 19px;
+}
+.rectangle-14 {
+  border-radius: 0px;
+  width: 103px;
+  height: 28px;
+  position: absolute;
+  left: 1277px;
+  top: 37px;
+  overflow: visible;
+}
+.rectangle-13 {
+  border-radius: 0px;
+  width: 101px;
+  height: 28px;
+  position: absolute;
+  left: 1232px;
+  top: -44px;
+  overflow: visible;
+}
+.cadastra-se {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1287px;
+  top: 41px;
+  width: 90px;
+  height: 19px;
+}
+.rectangle-2 {
+  background: rgba(0, 60, 255, 0.75);
+  border-radius: 49px;
+  width: 77px;
+  height: 28px;
+  position: absolute;
+  left: 1170px;
+  top: 37px;
+}
+.entrar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1188px;
+  top: 42px;
+  width: 53px;
+  height: 19px;
+}
+.rectangle-31 {
+  background: #ffffff;
+  width: 335px;
+  height: 126px;
+  position: absolute;
+  left: 67px;
+  top: 514px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-34 {
+  background: #d9d9d9;
+  width: 978px;
+  height: 25px;
+  position: absolute;
+  left: 244px;
+  top: 772px;
+}
+.programa-o-por-dia {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 625px;
+  top: 712px;
+  width: 188px;
+  height: 31px;
+}
+.explore-a-programa-o-detalhada-do-ix-concifa-organizada-por-dia-e-hor-rio {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 549px;
+  top: 750px;
+  width: 346px;
+  height: 15px;
+}
+.line-11 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #8800ff;
+  border-width: 3px 0 0 0;
+  width: 158px;
+  height: 0px;
+  position: absolute;
+  left: 638px;
+  top: 744px;
+  transform-origin: 0 0;
+  transform: rotate(-0.372deg) scale(1, 1);
+}
+.rectangle-35 {
+  background: rgba(0, 60, 255, 0.4);
+  border-radius: 73px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 78px;
+  top: 525px;
+}
+.today2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 82px;
+  top: 529px;
+  overflow: visible;
+}
+.dia-1 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 119px;
+  top: 525px;
+  width: 71px;
+  height: 13px;
+}
+._11-de-junho-2025 {
+  color: rgba(0, 0, 0, 0.62);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 119px;
+  top: 538px;
+  width: 115px;
+  height: 13px;
+}
+.abertura-da-palestra {
+  color: rgba(0, 0, 0, 0.62);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 82px;
+  top: 565px;
+  width: 127px;
+  height: 13px;
+}
+.rectangle-36 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.28);
+  border-width: 0.3px;
+  width: 266px;
+  height: 15px;
+  position: absolute;
+  left: 101px;
+  top: 608px;
+}
+.ver-programa-o {
+  color: rgba(0, 0, 0, 0.62);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 185px;
+  top: 608px;
+  width: 99px;
+  height: 13px;
+}
+.rectangle-37 {
+  background: #ffffff;
+  width: 335px;
+  height: 126px;
+  position: absolute;
+  left: 549px;
+  top: 515px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-38 {
+  background: rgba(0, 60, 255, 0.4);
+  border-radius: 73px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 560px;
+  top: 526px;
+}
+.today3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 564px;
+  top: 530px;
+  overflow: visible;
+}
+.dia-2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 601px;
+  top: 526px;
+  width: 71px;
+  height: 13px;
+}
+._12-de-junho-2025 {
+  color: rgba(0, 0, 0, 0.62);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 601px;
+  top: 539px;
+  width: 115px;
+  height: 13px;
+}
+.workshops-e-apresenta-es {
+  color: rgba(0, 0, 0, 0.62);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 564px;
+  top: 566px;
+  width: 172px;
+  height: 13px;
+}
+.rectangle-39 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.28);
+  border-width: 0.3px;
+  width: 266px;
+  height: 15px;
+  position: absolute;
+  left: 583px;
+  top: 609px;
+}
+.ver-programa-o2 {
+  color: rgba(0, 0, 0, 0.62);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 667px;
+  top: 609px;
+  width: 99px;
+  height: 13px;
+}
+.rectangle-40 {
+  background: #ffffff;
+  width: 335px;
+  height: 126px;
+  position: absolute;
+  left: 1030px;
+  top: 514px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-41 {
+  background: rgba(0, 60, 255, 0.4);
+  border-radius: 73px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 1041px;
+  top: 525px;
+}
+.today4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1045px;
+  top: 529px;
+  overflow: visible;
+}
+.dia-3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 1082px;
+  top: 525px;
+  width: 71px;
+  height: 13px;
+}
+._13-de-junho-2025 {
+  color: rgba(0, 0, 0, 0.62);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 1082px;
+  top: 538px;
+  width: 115px;
+  height: 13px;
+}
+.encerramento {
+  color: rgba(0, 0, 0, 0.62);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 1045px;
+  top: 565px;
+  width: 127px;
+  height: 13px;
+}
+.rectangle-42 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.28);
+  border-width: 0.3px;
+  width: 266px;
+  height: 15px;
+  position: absolute;
+  left: 1064px;
+  top: 608px;
+}
+.ver-programa-o3 {
+  color: rgba(0, 0, 0, 0.62);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 1148px;
+  top: 608px;
+  width: 99px;
+  height: 13px;
+}
+.rectangle-43 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.31);
+  border-width: 1px;
+  width: 348px;
+  height: 25px;
+  position: absolute;
+  left: 244px;
+  top: 772px;
+}
+.dia-1-11-06 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 358px;
+  top: 776px;
+  width: 88px;
+  height: 26px;
+}
+.dia-2-12-06 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 736px;
+  top: 776px;
+  width: 88px;
+  height: 26px;
+}
+.dia-3-13-06 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 1058px;
+  top: 776px;
+  width: 88px;
+  height: 26px;
+}
+.rectangle-44 {
+  background: #ffffff;
+  width: 790px;
+  height: 71px;
+  position: absolute;
+  left: 439px;
+  top: 825px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-45 {
+  background: #ffffff;
+  width: 790px;
+  height: 103px;
+  position: absolute;
+  left: 439px;
+  top: 911px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.line-12 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.46);
+  border-width: 3px 0 0 0;
+  width: 68.01px;
+  height: 0px;
+  position: absolute;
+  left: 438px;
+  top: 828px;
+  transform-origin: 0 0;
+  transform: rotate(89.157deg) scale(1, 1);
+}
+._08-00-09-00 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 291px;
+  top: 850px;
+  width: 105px;
+  height: 12px;
+}
+._09-00-10-30 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 297px;
+  top: 951px;
+  width: 105px;
+  height: 12px;
+}
+.schedule2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 255px;
+  top: 948px;
+  overflow: visible;
+}
+.schedule3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 255px;
+  top: 849px;
+  overflow: visible;
+}
+.ellipse-4 {
+  background: rgba(217, 217, 217, 0.64);
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  left: 462px;
+  top: 846px;
+}
+.ellipse-5 {
+  background: rgba(0, 60, 255, 0.47);
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  left: 462px;
+  top: 951px;
+}
+.directions-walk {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 463px;
+  top: 848px;
+  overflow: visible;
+}
+.mic {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 463px;
+  top: 954px;
+  overflow: visible;
+}
+.credenciamento-e-welcome-coffee {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 511px;
+  top: 846px;
+  width: 313px;
+  height: 23px;
+}
+.cerim-nia-de-abertura {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 511px;
+  top: 952px;
+  width: 313px;
+  height: 23px;
+}
+.plaza-shopping {
+  color: rgba(0, 0, 0, 0.56);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 523px;
+  top: 971px;
+  width: 313px;
+  height: 23px;
+}
+.rafael-ribeira {
+  color: rgba(0, 0, 0, 0.56);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 624px;
+  top: 972px;
+  width: 313px;
+  height: 23px;
+}
+.location-on {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 511px;
+  top: 971px;
+  overflow: visible;
+}
+.person {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 607px;
+  top: 972px;
+  overflow: visible;
+}
+.programa-o-completa {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: absolute;
+  left: 351px;
+  top: 197px;
+  width: 742px;
+  height: 76px;
+}
