@@ -1,0 +1,522 @@
+.desktop-3,
+.desktop-3 * {
+  box-sizing: border-box;
+}
+.desktop-3 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-10 {
+  background: #5f29dd;
+  width: 1440px;
+  height: 51px;
+  position: absolute;
+  left: 2px;
+  top: 0px;
+}
+.rectangle-11 {
+  background: #ffffff;
+  width: 1440px;
+  height: 46px;
+  position: absolute;
+  left: 0px;
+  top: 28px;
+}
+.today {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 2px;
+  top: 3px;
+  overflow: visible;
+}
+._22-abril-2025 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 5px;
+  width: 93px;
+  height: 19px;
+}
+._14-23 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 134px;
+  top: 5px;
+  width: 93px;
+  height: 19px;
+}
+.schedule {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 110px;
+  top: 5px;
+  overflow: visible;
+}
+.issn-2966-425-x {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1314px;
+  top: 6px;
+  width: 146px;
+  height: 28px;
+}
+.image-1 {
+  width: 168px;
+  height: 35px;
+  position: absolute;
+  left: 151px;
+  top: 33px;
+  object-fit: cover;
+  aspect-ratio: 168/35;
+}
+.image {
+  width: 1444px;
+  height: 589px;
+  position: absolute;
+  left: 1px;
+  top: 76px;
+  object-fit: cover;
+}
+.p-gina-inicial {
+  color: #000000;
+  text-align: left;
+  font-family: "Baloo2-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 402px;
+  top: 37px;
+  width: 93px;
+  height: 19px;
+}
+.sobre {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 524px;
+  top: 40px;
+  width: 47px;
+  height: 21px;
+}
+.programa-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 600px;
+  top: 40px;
+  width: 97px;
+  height: 21px;
+}
+.submiss-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 720px;
+  top: 41px;
+  width: 79px;
+  height: 19px;
+}
+.publica-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 826px;
+  top: 42px;
+  width: 79px;
+  height: 19px;
+}
+.edi-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 932px;
+  top: 42px;
+  width: 79px;
+  height: 19px;
+}
+.rectangle-14 {
+  border-radius: 0px;
+  width: 103px;
+  height: 28px;
+  position: absolute;
+  left: 1277px;
+  top: 37px;
+  overflow: visible;
+}
+.rectangle-15 {
+  border-radius: 0px;
+  width: 171px;
+  height: 37px;
+  position: absolute;
+  left: 462px;
+  top: 593px;
+  overflow: visible;
+}
+.rectangle-16 {
+  border-radius: 0px;
+  width: 133px;
+  height: 37px;
+  position: absolute;
+  left: 826px;
+  top: 593px;
+  overflow: visible;
+}
+.rectangle-13 {
+  border-radius: 0px;
+  width: 101px;
+  height: 28px;
+  position: absolute;
+  left: 1232px;
+  top: -44px;
+  overflow: visible;
+}
+.cadastra-se {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1287px;
+  top: 41px;
+  width: 90px;
+  height: 19px;
+}
+.rectangle-2 {
+  background: rgba(0, 60, 255, 0.75);
+  border-radius: 49px;
+  width: 77px;
+  height: 28px;
+  position: absolute;
+  left: 1170px;
+  top: 37px;
+}
+.entrar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1188px;
+  top: 42px;
+  width: 53px;
+  height: 19px;
+}
+.inscreva-se-agora {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 481px;
+  top: 602px;
+  width: 133px;
+  height: 19px;
+}
+.saiba-mais {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 853px;
+  top: 602px;
+  width: 79px;
+  height: 19px;
+}
+.rectangle-17 {
+  width: 1440px;
+  height: 53px;
+  position: absolute;
+  left: 0px;
+  top: 663px;
+  overflow: visible;
+}
+.today2 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 332px;
+  top: 680px;
+  overflow: visible;
+}
+._28-29-e-30-outubro {
+  color: #f95b5b;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 359px;
+  top: 682px;
+  width: 133px;
+  height: 19px;
+}
+.manaus-brasil {
+  color: rgba(21, 148, 25, 0.75);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 539px;
+  top: 682px;
+  width: 133px;
+  height: 19px;
+}
+._1000-participantes {
+  color: rgba(52, 29, 134, 0.75);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 699px;
+  top: 684px;
+  width: 151px;
+  height: 19px;
+}
+._200-trabalhos {
+  color: rgba(172, 23, 180, 0.75);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 894px;
+  top: 684px;
+  width: 151px;
+  height: 19px;
+}
+.location-on {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 515px;
+  top: 680px;
+  overflow: visible;
+}
+.gmail-groups {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 667px;
+  top: 680px;
+  overflow: visible;
+}
+.bookmark {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 865px;
+  top: 682px;
+  overflow: visible;
+}
+.rectangle-18 {
+  background: rgba(138, 165, 254, 0.88);
+  width: 115px;
+  height: 32px;
+  position: absolute;
+  left: 605px;
+  top: 730px;
+}
+.rectangle-19 {
+  background: rgba(0, 0, 0, 0.78);
+  width: 216px;
+  height: 23px;
+  position: absolute;
+  left: 69px;
+  top: 994px;
+}
+.sobre-o-evento {
+  color: #081a63;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 614px;
+  top: 736px;
+  width: 109px;
+  height: 19px;
+}
+.ix-concifa-2025 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 602px;
+  top: 766px;
+  width: 131px;
+  height: 19px;
+}
+.ver-programa-o-completa {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 77px;
+  top: 996px;
+  width: 190px;
+  height: 19px;
+}
+.o-ix-concifa-um-evento-acad-mico-que-re-ne-pesquisadores-profissionais-e-estudantes-interessados-nas-interfaces-entre-tecnologia-inova-o-e-comportamento-humano-com-foco-nas-mais-recentes-descobertas-e-aplica-es-da-intelig-ncia-artificial-e-suas-implica-es-para-a-sociedade-o-evento-proporciona-um-espa-o-de-di-logo-e-troca-de-experi-ncias-entre-diferentes-reas-do-conhecimento-nesta-nona-edi-o-abordaremos-temas-como-tica-na-ia-interfaces-homem-m-quina-processamento-de-linguagem-natural-vis-o-computacional-e-o-impacto-dessas-tecnologias-no-comportamento-humano-e-na-sociedade {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 69px;
+  top: 797px;
+  width: 561px;
+  height: 197px;
+}
+.arrow-1 {
+  width: 1px;
+  height: 0px;
+  position: absolute;
+  left: 271px;
+  top: 1006px;
+  overflow: visible;
+}
+.rectangle-20 {
+  background: #ffffff;
+  width: 552px;
+  height: 213px;
+  position: absolute;
+  left: 753px;
+  top: 795px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.submiss-o-de-trabalhos-15-de-janeiro-a-15-de-mar-o-de-2025-notifica-o-de-aceita-o-01-de-abril-de-2025-realiza-o-do-evento-11-a-13-de-abril-de-2025-publica-o-dos-anais-30-de-maio-de-202 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 815px;
+  top: 811px;
+  width: 462px;
+  height: 196px;
+}
+.rectangle-21 {
+  background: #d9d9d9;
+  border-radius: 78px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 767px;
+  top: 813px;
+}
+.rectangle-22 {
+  background: #d9d9d9;
+  border-radius: 78px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 767px;
+  top: 866px;
+}
+.rectangle-23 {
+  background: #d9d9d9;
+  border-radius: 78px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 767px;
+  top: 917px;
+}
+.rectangle-24 {
+  background: #d9d9d9;
+  border-radius: 78px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 767px;
+  top: 965px;
+}
+.today3 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 772px;
+  top: 818px;
+  overflow: visible;
+}
+.today4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 772px;
+  top: 870px;
+  overflow: visible;
+}
+.today5 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 772px;
+  top: 970px;
+  overflow: visible;
+}
+.today6 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 772px;
+  top: 921px;
+  overflow: visible;
+}
+.line-10 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 146px;
+  height: 0px;
+  position: absolute;
+  left: 587px;
+  top: 785px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
