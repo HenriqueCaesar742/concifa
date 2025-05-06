@@ -1,4 +1,10 @@
 require('dotenv').config();
+
+if (!process.env.DB_USER) {
+  console.error("Variáveis de ambiente não foram carregads. Verifique seu arquivo .env.");
+  process.exit(1)
+}
+const PORT = process.env.PORT || 3006;
 const express = require('express');
 const multer = require('multer');
 const nodemailer = require('nodemailer');
@@ -91,6 +97,37 @@ app.post('/enviar', upload.fields([{ name: 'artigo', maxCount: 1 }, { name: 'ter
     });
 });
 
+
+const mysql = require('mysql2');
+const connection = mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME
+});
+
+app.get('/trabalhos', (req,res) => {
+  connection.query('SELECT * FROM artigos ORDER BY data_envio DESC', (err, results) => {
+    if (err) { 
+      console.error('Erro ao buscar trabalhos:', err);
+      return res.status(55).json({ error: 'Erro no servidor'});
+    }
+
+    // Corrige os caminhos dos arquivos (assumindo pasta /uploads)
+  const trabalhos = results.map(trabalho => ({
+    ...trabalho,
+    caminho_artigo:`/uploads/${trabalho.caminho_artigo}`,
+    caminho_termo: `/uploads/${trabalho.caminho_termo}`
+  }));
+
+  res.json(trabalhos);
+  });
+});
+
+// Servir arquivos estáticos da pasta uploads
+app.use('/uploads', express.static(path.join(__dirname,'uploads')));
+
+// Iniciar o servidor
 app.listen(process.env.PORT, () => {
   console.log(`Servidor rodando na porta ${process.env.PORT}`);
 });
