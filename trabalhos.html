@@ -59,18 +59,18 @@
     </table>
     <script>
         fetch ('/trabalhos')
-        .then (response => response.json())
+        .then (res => res.json())
         .then (trabalhos => {
-            const tbody = document.getElementById('lista-trabalhos');
-            trabalhos.forEach(trabalho => {
-                const row = document.createElement('tr');
+            const tbody = document.querySelector("#tabela tbody");
+            trabalhos.forEach(t => {
+                const row = document.createElement("tr");
                 row.innerHTML = `
-                <td>${trabalho.nome_autor}<td/>
-                <td>${trabalho.email_autor}</td>
-                <td>${trabalho.titulo_artigo}</td>
-                <td><a href="${trabalho.caminho_artigo}" target="_blank">Ver PDF</a></td>
-                <td><a href="${trabalho.caminho_termo}" target="_blank">Ver Termo</a></td>
-                <td>${new Date(trabalho.data_envio).toLocaleString('pt-BR')}</td>
+                <td>${t.nome_autor}<td/>
+                <td>${t.email_autor}</td>
+                <td>${t.titulo_artigo}</td>
+                <td><a href="${t.caminho_artigo}" target="_blank">PDF</a></td>
+                <td><a href="${t.caminho_termo}" target="_blank">DOC</a></td>
+                <td>${new Date(t.data_envio).toLocaleString('pt-BR')}</td>
                 `;
                 tbody.appendChild(row);
             });
