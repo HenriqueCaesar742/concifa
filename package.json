@@ -11,5 +11,18 @@
     "mysql2": "^3.3.2",
     "nodemailer": "^6.9.5",
     "dotenv": "^16.3.1"
-  }
+  },
+  "description": "projeto-recebimento-artigos/\r ├── uploads/               # Pasta para armazenar os arquivos enviados\r ├── .env                   # Variáveis de ambiente (SMTP, DB, etc.)\r ├── server.js              # Servidor principal\r ├── package.json\r ├── form.html              # Formulário frontend",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueCaesar742/concifa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueCaesar742/concifa/issues"
+  },
+  "homepage": "https://github.com/HenriqueCaesar742/concifa#readme"
 }

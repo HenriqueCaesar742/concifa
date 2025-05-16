@@ -1,39 +1,18 @@
 require('dotenv').config();
-
-const PORT = process.env.PORT || 3006;
 const express = require('express');
 const multer = require('multer');
-const nodemailer = require('nodemailer');
 const mysql = require('mysql2');
 const path = require('path');
-const fs = require('fs');
+
 const app = express();
+const PORT = 3000;
 
-// Configurando o Multer
 const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, 'uploads/');
-  },
-  filename: (req, file, cb) => {
-    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-    cb(null, uniqueSuffix + '-' + file.originalname);
-  }
+  destination: (req, file, cb) => cb(null, 'uploads/'),
+  filename: (req, file, cb) => cb(null, Date.now + '=' + file.originalnamename)
 });
+const upload = multer({  storage });
 
-const upload = multer({
-  storage: storage,
-  fileFilter: (req, file, cb) => {
-    if (file.fieldname === 'artigo' && path.extname(file.originalname) !== '.pdf') {
-      return cb(new Error('O artigo deve ser um arquivo PDF.'));
-    }
-    if (file.fieldname === 'termo' && path.extname(file.originalname) !== '.doc') {
-      return cb(new Error('O termo de cessão deve ser um arquivo DOC.'));
-    }
-    cb(null, true);
-  }
-});
-
-// Configurando o Banco de Dados
 const db = mysql.createConnection({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
@@ -41,84 +20,46 @@ const db = mysql.createConnection({
   database: process.env.DB_NAME
 });
 
-// Configurando o Nodemailer
-const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: process.env.SMTP_PORT,
-  secure: false,
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS
+db.connect((err) => {
+  if(err) {
+    console.error('Erro ao conectar ao MySQL:', err);
+  } else {
+    console.log('Conectado ao MySQL.');
   }
 });
 
+// Servir arquivos estáticos da pasta uploads
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 // Rota para receber o formulário
-app.post('/enviar', upload.fields([{ name: 'artigo', maxCount: 1 }, { name: 'termo', maxCount: 1 }]), (req, res) => {
-  const { nome, email, titulo } = req.body;
-  const artigo = req.files['artigo'][0];
-  const termo = req.files['termo'][0];
+app.post('/enviar', upload.fields([
+  { name: 'artigo', maxCount: 1 }, 
+  { name: 'termo', maxCount: 1 }
+]), (req, res) => {
+  const { nome, email, titulo, categoria } = req.body;
+  const artigoPath = req.files['artigo'][0].filename;
+  const termoPath = req.files['termo'][0].filename;
 
   if (!artigo || !termo) {
     return res.status(400).send('Arquivos não enviados corretamente.');
   }
 
   // Gravar no banco
-  db.query('INSERT INTO artigos (nome_autor, email_autor, titulo_artigo, caminho_artigo, caminho_termo) VALUES (?, ?, ?, ?, ?)', 
-    [nome, email, titulo, artigo.filename, termo.filename], 
+  db.query('INSERT INTO artigos (nome, email, titulo, categoria, artigo_path, termo_path) VALUES (?, ?, ?, ?, ?)',
+    [nome, email, titulo, artigo.filename, termo.filename],
     (err, results) => {
       if (err) {
         console.error(err);
         return res.status(500).send('Erro ao salvar no banco de dados.');
       }
-
-      // Enviar e-mail de confirmação
-      const mailOptions = {
-        from: process.env.SMTP_USER,
-        to: email,
-        subject: 'Confirmação de recebimento de artigo',
-        text: `Olá ${nome}, recebemos seu artigo "${titulo}" com sucesso! Obrigado pela submissão.`
-      };
-
-      transporter.sendMail(mailOptions, (error, info) => {
-        if (error) {
-          console.error(error);
-          return res.status(500).send('Erro ao enviar e-mail.');
-        }
-
         res.send('Artigo enviado com sucesso!');
       });
     });
+
+app.get('/', (req,res) => {
+  res.sendFile(path.join(__dirname, 'form.html'));
 });
-
-const connection = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME
-});
-
-app.get('/trabalhos', (req,res) => {
-  connection.query('SELECT * FROM artigos ORDER BY data_envio DESC', (err, results) => {
-    if (err) { 
-      console.error('Erro ao buscar trabalhos:', err);
-      return res.status(55).json({ error: 'Erro no servidor'});
-    }
-
-    // Corrige os caminhos dos arquivos (assumindo pasta /uploads)
-  const trabalhos = results.map(trabalho => ({
-    ...trabalho,
-    caminho_artigo:`/uploads/${trabalho.caminho_artigo}`,
-    caminho_termo: `/uploads/${trabalho.caminho_termo}`
-  }));
-
-  res.json(trabalhos);
-  });
-});
-
-// Servir arquivos estáticos da pasta uploads
-app.use('/uploads', express.static(path.join(__dirname,'uploads')));
-
 // Iniciar o servidor
-app.listen(process.env.PORT, () => {
-  console.log(`Servidor rodando na porta ${process.env.PORT}`);
+app.listen(PORT, () => {
+  console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
