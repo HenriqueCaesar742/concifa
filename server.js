@@ -4,16 +4,19 @@ const bodyParser = require('body-parser');
 const multer = require('multer');
 const mysql = require('mysql2');
 const path = require('path');
+const fs = require('fs');
 
 const app = express();
 const PORT = 3000;
 
+// Configuração do multer
 const storage = multer.diskStorage({
   destination: (req, file, cb) => cb(null, 'uploads/'),
   filename: (req, file, cb) => cb(null, Date.now() + '-' + file.originalname)
 });
 const upload = multer({ storage });
 
+// Conexão com banco de dados
 const db = mysql.createConnection({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
@@ -29,19 +32,21 @@ db.connect((err) => {
   }
 });
 
-//Middleware
+// Middleware para arquivos estáticos e formulários
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('public'));
 
-app.get('/pagina', (req, res) => {
-  res.sendFile(__dirname + '/public/pagina.html');
-});
-
+// Rota de envio do formulário
 app.post('/enviar', upload.fields([
   { name: 'artigo', maxCount: 1 },
   { name: 'termo', maxCount: 1 }
 ]), (req, res) => {
   const { nome, email, titulo, categoria } = req.body;
+
+  if (!req.files['artigo'] || !req.files['termo']) {
+    return res.status(400).send('Ambos os arquivos (artigo e termo) são obrigatórios.');
+  }
+
   const artigoPath = req.files['artigo'][0].filename;
   const termoPath = req.files['termo'][0].filename;
 
