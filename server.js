@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require('express');
+const bodyParser = require('body-parser');
 const multer = require('multer');
 const mysql = require('mysql2');
 const path = require('path');
@@ -28,7 +29,13 @@ db.connect((err) => {
   }
 });
 
+//Middleware
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
+
+app.get('/pagina', (req, res) => {
+  res.sendFile(__dirname + '/public/pagina.html');
+});
 
 app.post('/enviar', upload.fields([
   { name: 'artigo', maxCount: 1 },
