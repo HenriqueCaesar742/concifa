@@ -1,9 +1,5 @@
 require('dotenv').config();
 
-if (!process.env.DB_USER) {
-  console.error("Variáveis de ambiente não foram carregads. Verifique seu arquivo .env.");
-  process.exit(1)
-}
 const PORT = process.env.PORT || 3006;
 const express = require('express');
 const multer = require('multer');
@@ -11,10 +7,7 @@ const nodemailer = require('nodemailer');
 const mysql = require('mysql2');
 const path = require('path');
 const fs = require('fs');
-
 const app = express();
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static('uploads'));
 
 // Configurando o Multer
 const storage = multer.diskStorage({
@@ -97,8 +90,6 @@ app.post('/enviar', upload.fields([{ name: 'artigo', maxCount: 1 }, { name: 'ter
     });
 });
 
-
-const mysql = require('mysql2');
 const connection = mysql.createConnection({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
