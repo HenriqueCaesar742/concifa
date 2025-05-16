@@ -20,3 +20,4 @@ Processo de Recebimento de Artigos:
     ↳ Envia e-mail de confirmação
         ↓
 [Usuário recebe e-mail confirmando recebimento]
+
