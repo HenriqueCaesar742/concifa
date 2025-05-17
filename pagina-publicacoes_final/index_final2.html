@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
+  <title>Document</title>
+
+<style>
+#resultados-container {
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+</style>
+
+</head>
+<body>
+  <div class="desktop-7">
+    <div class="rectangle-10"></div>
+    <div class="rectangle-11"></div>
+    <img class="today" src="today0.svg" />
+    <div class="_22-abril-2025">22 Abril 2025</div>
+    <div class="_14-23">14:23</div>
+    <img class="schedule" src="schedule0.svg" />
+    <div class="issn-2966-425-x">
+      ISSN: 2966-425X
+      <br />
+    </div>
+    <img class="image-1" src="image-10.png" />
+    <div class="image"></div>
+    <section class="publicacoes-anteriores">
+      <p>
+        Acesse os <a href="https://exemplo.com/canais" target="_blank">canais</a> e 
+        <a href="https://exemplo.com/publicacoes" target="_blank">publicações</a> das edições anteriores do CONCIFA e explore os trabalhos apresentados.
+      </p>
+    </section>    
+    <div class="publica-es-de-trabalhos">Publicações de Trabalhos</div>
+    <div class="p-gina-inicial">Página inicial</div>
+    <div class="sobre">Sobre</div>
+    <div class="programa-o">Programação</div>
+    <div class="submiss-o">Submissão</div>
+    <div class="publica-o">Publicação</div>
+    <div class="edi-o">Edição</div>
+    <img class="rectangle-14" src="rectangle-140.svg" />
+    <img class="rectangle-13" src="rectangle-130.svg" />
+    <div class="cadastra-se">Cadastra-se</div>
+    <div class="rectangle-2"></div>
+    <div class="entrar">Entrar</div>
+    <div class="rectangle-48"></div>
+    <div class="publica-es">Publicações</div>
+    <div class="rectangle-49"></div>
+    <div class="pesquisar-publica-es">
+      Pesquisar Publicações
+      <br />
+    </div>
+    <!--resultado de publicacao-->
+    <div class="resultados">Resultados</div>
+    <!-- busca -->
+    <input type="text" id="searchInput" placeholder="Buscar por título, autor ou palavra-chave" style="position:absolute; left:233px; top:448px; font-size:18px; width:540px;">
+    <!--recente-->
+    <select id="ordenarSelect" style="
+     position: absolute;
+     top: 615px;
+     left: 1105px;
+     width: 172px;
+     height: 30px;
+     font-size: 16px;
+     border: 1px solid rgba(0,0,0,0.4);
+     border-radius: 5px;
+     padding-left: 10px;
+     font-family: 'Inter', sans-serif;
+    ">
+    <option value="mais-recente">Mais recente</option>
+    <option value="mais-antigo">Mais antigo</option>
+    </select>
+
+<div id="resultados-container" style="position: absolute; top: 660px; left: 268px; z-index: 10; width: 893px;">
+  <div class="card" data-ano="2024" data-tipo="incompleto">
+    <h3>Interfaces Conversacionais Baseadas em IA: Um Estudo de Caso</h3>
+    <p><strong>Autores:</strong> Silva, J.; Oliveira, M.; Santos, A.</p>
+    <p>Este trabalho apresenta uma análise detalhada sobre interfaces conversacionais baseadas em inteligência artificial, destacando os principais desafios e oportunidades nesta área.</p>
+    <div class="card-actions">
+      <a href="https://exemplo.com/ia" target="_blank" class="btn-online">
+        <img src="language0.svg" alt="Ver online" class="icon"> Ver online
+      </a>
+      <a href="artigo-ia.pdf" target="_blank" class="btn-pdf">
+        <img src="download0.svg" alt="PDF" class="icon"> PDF
+      </a>
+    </div>     
+  </div>
+
+  <div class="card" data-ano="2023" data-tipo="completo">
+    <h3>Ética e Viés em Sistemas de Recomendação</h3>
+    <p><strong>Autores:</strong> Silva, J.; Oliveira, M.; Santos, A.</p>
+    <p>Este trabalho apresenta uma análise detalhada sobre questões éticas e viés em sistemas de recomendação, destacando os principais desafios e oportunidades.</p>
+    <div class="card-actions">
+      <a href="https://exemplo.com/ia" target="_blank" class="btn-online">
+        <img src="language0.svg" alt="Ver online" class="icon"> Ver online <!--online e pdf estao aqui-->
+      </a>
+      <a href="artigo-ia.pdf" target="_blank" class="btn-pdf">
+        <img src="download0.svg" alt="PDF" class="icon"> PDF
+      </a>
+    </div>
+    
+  </div>
+   <div class="card" data-ano="2022" data-tipo="completo">
+    <h3>Ética e Viés em Sistemas de Recomendação</h3>
+    <p><strong>Autores:</strong> Silva, J.; Oliveira, M.; Santos, A.</p>
+    <p>Este trabalho apresenta uma análise detalhada sobre questões éticas e viés em sistemas de recomendação, destacando os principais desafios e oportunidades.</p>
+    <div class="card-actions">
+      <a href="https://exemplo.com/ia" target="_blank" class="btn-online">
+        <img src="language0.svg" alt="Ver online" class="icon"> Ver online <!--online e pdf estao aqui-->
+      </a>
+      <a href="artigo-ia.pdf" target="_blank" class="btn-pdf">
+        <img src="download0.svg" alt="PDF" class="icon"> PDF
+      </a>
+    </div>
+</div>
+<!--final-->
+
+    <div class="rectangle-63"></div>
+    <div class="rectangle-64"></div>
+    <div class="rectangle-65"></div>
+    <img class="search" src="search0.svg" />
+    <!-- busca -->
+    <input type="text" id="searchInput" placeholder="Buscar por título, autor ou palavra-chave" style="position:absolute; left:233px; top:448px; font-size:18px; width:540px;">
+    <!--edicao/categoria-->
+    <div class="edi-o2">Edição</div>
+    
+    <div class="categoria">Categoria</div>
+    <div class="categoria2">Categoria</div>
+    <img class="navigate-next" src="navigate-next0.svg" />
+    <img class="navigate-next2" src="navigate-next1.svg" />
+   
+    
+<!--<button id="toggleButton">Mostrar Artigo Completo</button>
+    <div id="artigoCompleto" class="artigo-completo">Artigo Completo</div>
+    <div id="artigoIncompleto" class="artigo-imcompleto">Artigo--> </div>
+
+    <!--tipos
+    <div class="tipo-de-publica-o">Tipo de Publicação</div>
+    <div class="tipo-de-publica-o">Tipo de Publicação</div>-->
+
+    <!--filtro-->
+    <div style="position: absolute; left: 32px; top: 687px; display: flex; align-items: center;">
+      <span style="font-size: 25px; font-weight: 600; color: #000;">Filtros</span>
+      <img src="bookmark0.svg" alt="ícone de filtro" style="width: 20px; height: 20px; margin-left: 100px;">
+    </div>
+    
+    <!--anos-->
+   <!-- container do bloco lateral de filtros -->
+<div style="position: absolute; left: 32px; top: 720px;">
+  <div class="filtro-anos">
+    <label><input type="checkbox" name="ano" value="2024" style="margin-right: 8px;"> 2024</label>
+    <label><input type="checkbox" name="ano" value="2023" style="margin-right: 8px;"> 2023</label>
+    <label><input type="checkbox" name="ano" value="2022" style="margin-right: 8px;"> 2022</label>
+    <label><input type="checkbox" name="ano" value="2021" style="margin-right: 8px;"> 2021</label>
+    <label><input type="checkbox" name="ano" value="2020" style="margin-right: 8px;"> 2020</label>
+  </div>
+</div>
+<!-- Título -->
+<div style="position: absolute; left: 32px; top: 890px; font-weight: 700; font-size: 20px;">Tipo de Publicação</div>
+<!--tipos de plublicacao-->
+<div class="filtro-tipo" style="position: absolute; left: 32px; top: 920px;">
+  <label style="display: flex; align-items: center; margin-bottom: 10px; color: #000; font-size: 16px; font-weight: 600;">
+    <input type="checkbox" name="tipo" value="completo" style="margin-right: 8px;"> Artigo Completo
+  </label>
+  <label style="display: flex; align-items: center; color: #000; font-size: 16px; font-weight: 600;">
+    <input type="checkbox" name="tipo" value="incompleto" style="margin-right: 8px;"> Artigo Incompleto
+  </label>
+</div>  
+    <!-- antigos Ícones de ação 
+    <div class="rectangle-68"></div>
+    <div class="rectangle-69"></div>
+    <div class="rectangle-70"></div>
+    <div class="rectangle-71"></div> -->
+    
+  <!--busca palavra-chave-->
+  <script>
+    const searchInput = document.getElementById("searchInput");
+    const cards = document.querySelectorAll("#resultados-container .card");
+  
+    searchInput.addEventListener("input", () => {
+      const value = searchInput.value.toLowerCase();
+      cards.forEach(card => {
+        card.style.display = card.textContent.toLowerCase().includes(value) ? "block" : "none";
+      });
+    });
+  </script>
+  
+  <!--ANO-->
+ <script>
+window.onload = function () {
+  const cards = document.querySelectorAll('#resultados-container .card');
+  const filtroAnosContainer = document.querySelector('.filtro-anos');
+
+  // Coletar anos únicos
+  const anos = new Set();
+  cards.forEach(card => {
+    anos.add(card.getAttribute('data-ano'));
+  });
+
+  // Ordenar e criar os checkboxes dinamicamente
+  const anosOrdenados = Array.from(anos).sort((a, b) => b - a); // mais recente primeiro
+  filtroAnosContainer.innerHTML = ''; // limpa filtros antigos
+  anosOrdenados.forEach(ano => {
+    const label = document.createElement('label');
+    label.innerHTML = `<input type="checkbox" name="ano" value="${ano}" style="margin-right: 8px;"> ${ano}`;
+    filtroAnosContainer.appendChild(label);
+  });
+
+  // Lógica de filtragem (reutilizando a existente)
+  const yearCheckboxes = document.querySelectorAll('input[name="ano"]');
+  const tipoCheckboxes = document.querySelectorAll('input[name="tipo"]');
+
+  function updateFilter() {
+    const selectedYears = Array.from(document.querySelectorAll('input[name="ano"]:checked')).map(cb => cb.value);
+    const selectedTipos = Array.from(document.querySelectorAll('input[name="tipo"]:checked')).map(cb => cb.value);
+
+    cards.forEach(card => {
+      const cardYear = card.getAttribute('data-ano');
+      const cardTipo = card.getAttribute('data-tipo');
+      const matchYear = selectedYears.length === 0 || selectedYears.includes(cardYear);
+      const matchTipo = selectedTipos.length === 0 || selectedTipos.includes(cardTipo);
+      card.style.display = matchYear && matchTipo ? "block" : "none";
+    });
+  }
+
+  // Adiciona eventos
+  document.querySelectorAll('input[name="ano"], input[name="tipo"]').forEach(cb =>
+    cb.addEventListener('change', updateFilter)
+  );
+
+  updateFilter();
+};
+</script>
+<script>
+window.onload = function () {
+  const cards = document.querySelectorAll('#resultados-container .card');
+  const filtroAnosContainer = document.querySelector('.filtro-anos');
+
+  // Coletar anos únicos
+  const anos = new Set();
+  cards.forEach(card => {
+    anos.add(card.getAttribute('data-ano'));
+  });
+
+  // Ordenar e criar os checkboxes dinamicamente
+  const anosOrdenados = Array.from(anos).sort((a, b) => b - a); // mais recente primeiro
+  filtroAnosContainer.innerHTML = ''; // limpa filtros antigos
+  anosOrdenados.forEach(ano => {
+    const label = document.createElement('label');
+    label.innerHTML = `<input type="checkbox" name="ano" value="${ano}" style="margin-right: 8px;"> ${ano}`;
+    filtroAnosContainer.appendChild(label);
+  });
+
+  // Lógica de filtragem (reutilizando a existente)
+  const yearCheckboxes = document.querySelectorAll('input[name="ano"]');
+  const tipoCheckboxes = document.querySelectorAll('input[name="tipo"]');
+
+  function updateFilter() {
+    const selectedYears = Array.from(document.querySelectorAll('input[name="ano"]:checked')).map(cb => cb.value);
+    const selectedTipos = Array.from(document.querySelectorAll('input[name="tipo"]:checked')).map(cb => cb.value);
+
+    cards.forEach(card => {
+      const cardYear = card.getAttribute('data-ano');
+      const cardTipo = card.getAttribute('data-tipo');
+      const matchYear = selectedYears.length === 0 || selectedYears.includes(cardYear);
+      const matchTipo = selectedTipos.length === 0 || selectedTipos.includes(cardTipo);
+      card.style.display = matchYear && matchTipo ? "block" : "none";
+    });
+  }
+
+  // Adiciona eventos
+  document.querySelectorAll('input[name="ano"], input[name="tipo"]').forEach(cb =>
+    cb.addEventListener('change', updateFilter)
+  );
+
+  updateFilter();
+};
+</script>
+  <script>
+window.onload = function () {
+  const cards = document.querySelectorAll('#resultados-container .card');
+  const filtroAnosContainer = document.querySelector('.filtro-anos');
+
+  // Coletar anos únicos
+  const anos = new Set();
+  cards.forEach(card => {
+    anos.add(card.getAttribute('data-ano'));
+  });
+
+  // Ordenar e criar os checkboxes dinamicamente
+  const anosOrdenados = Array.from(anos).sort((a, b) => b - a); // mais recente primeiro
+  filtroAnosContainer.innerHTML = ''; // limpa filtros antigos
+  anosOrdenados.forEach(ano => {
+    const label = document.createElement('label');
+    label.innerHTML = `<input type="checkbox" name="ano" value="${ano}" style="margin-right: 8px;"> ${ano}`;
+    filtroAnosContainer.appendChild(label);
+  });
+
+  // Lógica de filtragem (reutilizando a existente)
+  const yearCheckboxes = document.querySelectorAll('input[name="ano"]');
+  const tipoCheckboxes = document.querySelectorAll('input[name="tipo"]');
+
+  function updateFilter() {
+    const selectedYears = Array.from(document.querySelectorAll('input[name="ano"]:checked')).map(cb => cb.value);
+    const selectedTipos = Array.from(document.querySelectorAll('input[name="tipo"]:checked')).map(cb => cb.value);
+
+    cards.forEach(card => {
+      const cardYear = card.getAttribute('data-ano');
+      const cardTipo = card.getAttribute('data-tipo');
+      const matchYear = selectedYears.length === 0 || selectedYears.includes(cardYear);
+      const matchTipo = selectedTipos.length === 0 || selectedTipos.includes(cardTipo);
+      card.style.display = matchYear && matchTipo ? "block" : "none";
+    });
+  }
+
+  // Adiciona eventos
+  document.querySelectorAll('input[name="ano"], input[name="tipo"]').forEach(cb =>
+    cb.addEventListener('change', updateFilter)
+  );
+
+  updateFilter();
+};
+</script>
+<script>
+window.onload = function () {
+  const cards = document.querySelectorAll('#resultados-container .card');
+  const filtroAnosContainer = document.querySelector('.filtro-anos');
+
+  // Coletar anos únicos
+  const anos = new Set();
+  cards.forEach(card => {
+    anos.add(card.getAttribute('data-ano'));
+  });
+
+  // Ordenar e criar os checkboxes dinamicamente
+  const anosOrdenados = Array.from(anos).sort((a, b) => b - a); // mais recente primeiro
+  filtroAnosContainer.innerHTML = ''; // limpa filtros antigos
+  anosOrdenados.forEach(ano => {
+    const label = document.createElement('label');
+    label.innerHTML = `<input type="checkbox" name="ano" value="${ano}" style="margin-right: 8px;"> ${ano}`;
+    filtroAnosContainer.appendChild(label);
+  });
+
+  // Lógica de filtragem (reutilizando a existente)
+  const yearCheckboxes = document.querySelectorAll('input[name="ano"]');
+  const tipoCheckboxes = document.querySelectorAll('input[name="tipo"]');
+
+  function updateFilter() {
+    const selectedYears = Array.from(document.querySelectorAll('input[name="ano"]:checked')).map(cb => cb.value);
+    const selectedTipos = Array.from(document.querySelectorAll('input[name="tipo"]:checked')).map(cb => cb.value);
+
+    cards.forEach(card => {
+      const cardYear = card.getAttribute('data-ano');
+      const cardTipo = card.getAttribute('data-tipo');
+      const matchYear = selectedYears.length === 0 || selectedYears.includes(cardYear);
+      const matchTipo = selectedTipos.length === 0 || selectedTipos.includes(cardTipo);
+      card.style.display = matchYear && matchTipo ? "block" : "none";
+    });
+  }
+
+  // Adiciona eventos
+  document.querySelectorAll('input[name="ano"], input[name="tipo"]').forEach(cb =>
+    cb.addEventListener('change', updateFilter)
+  );
+
+  updateFilter();
+};
+</script>
+<script>
+window.onload = function () {
+  const cards = document.querySelectorAll('#resultados-container .card');
+  const filtroAnosContainer = document.querySelector('.filtro-anos');
+
+  // Coletar anos únicos
+  const anos = new Set();
+  cards.forEach(card => {
+    anos.add(card.getAttribute('data-ano'));
+  });
+
+  // Ordenar e criar os checkboxes dinamicamente
+  const anosOrdenados = Array.from(anos).sort((a, b) => b - a); // mais recente primeiro
+  filtroAnosContainer.innerHTML = ''; // limpa filtros antigos
+  anosOrdenados.forEach(ano => {
+    const label = document.createElement('label');
+    label.innerHTML = `<input type="checkbox" name="ano" value="${ano}" style="margin-right: 8px;"> ${ano}`;
+    filtroAnosContainer.appendChild(label);
+  });
+
+  // Lógica de filtragem (reutilizando a existente)
+  const yearCheckboxes = document.querySelectorAll('input[name="ano"]');
+  const tipoCheckboxes = document.querySelectorAll('input[name="tipo"]');
+
+  function updateFilter() {
+    const selectedYears = Array.from(document.querySelectorAll('input[name="ano"]:checked')).map(cb => cb.value);
+    const selectedTipos = Array.from(document.querySelectorAll('input[name="tipo"]:checked')).map(cb => cb.value);
+
+    cards.forEach(card => {
+      const cardYear = card.getAttribute('data-ano');
+      const cardTipo = card.getAttribute('data-tipo');
+      const matchYear = selectedYears.length === 0 || selectedYears.includes(cardYear);
+      const matchTipo = selectedTipos.length === 0 || selectedTipos.includes(cardTipo);
+      card.style.display = matchYear && matchTipo ? "block" : "none";
+    });
+  }
+
+  // Adiciona eventos
+  document.querySelectorAll('input[name="ano"], input[name="tipo"]').forEach(cb =>
+    cb.addEventListener('change', updateFilter)
+  );
+
+  updateFilter();
+};
+</script>
+
+    <!--mais recente-->
+    <script>
+  const ordenarSelect = document.getElementById("ordenarSelect");
+  const resultadosContainer = document.getElementById("resultados-container");
+
+  ordenarSelect.addEventListener("change", () => {
+    const cards = Array.from(resultadosContainer.querySelectorAll(".card"));
+    const ordem = ordenarSelect.value;
+
+    cards.sort((a, b) => {
+      const anoA = parseInt(a.getAttribute("data-ano"));
+      const anoB = parseInt(b.getAttribute("data-ano"));
+      return ordem === "mais-recente" ? anoB - anoA : anoA - anoB;
+    });
+
+    cards.forEach(card => resultadosContainer.appendChild(card));
+  });
+</script>
+</body>
+</html>
